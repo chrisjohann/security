@@ -24,9 +24,10 @@
 
 # Module 4: Privilege 
 
-## No pot of gold at the end of the rainbow.
+## No pot of gold at the end of the rainbow.  
 
-... You can only use rainbow tables to reverse the hashes you calculated when you created the table, not any arbitrary hash. In other words, you can’t expect the table to store ... information that you never put there in the first place. Since the input space of server_secret||password is disjoint from the space of possible unsalted passwords, you ... cannot use the original rainbow table (which only accounted for plain 8-byte passwords) to extract server_secret||password. What’s more, if you could, then you could easily ... extract both the server_secret and the password (remember, || means concatenation), which would render the server_secret useless.
+...You can only use rainbow tables to reverse the hashes you calculated when you created the table, not any arbitrary hash. In other words, you can’t expect the table to store ... nformation that you never put there in the first place. Since the input space of server_secret||password is disjoint from the space of possible unsalted passwords, you 
+...cannot use the original rainbow table (which only accounted for plain 8-byte passwords) to extract server_secret||password. What’s more, if you could, then you could easily ...extract both the server_secret and the password (remember, || means concatenation), which would render the server_secret useless.
 
 ## A hash, by any other name, would smell as sweet.
 
