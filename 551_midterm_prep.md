@@ -60,7 +60,9 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 * Definition SS: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
 
 ### $\forall$m<sub>0</sub>,m<sub>1</sub> $\in$ M, {k }
-m&lt;sub&gt;0&lt;/sub&gt;,m&lt;sub&gt;1&lt;/sub&gt; M, k )
+**Answer:**
+$E\[P\]=\\: {k\\choose2} \\cdot \\frac{1}{365}=\\frac{{k\\choose2}}{365}$
+
 
 ## IND-CPA
 
