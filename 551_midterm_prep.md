@@ -59,6 +59,8 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 ## Semantic Security
 * Definition SS: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
 
+### $\forall$m<sub>0</sub>,m<sub>1</sub> $\in$ M, {k }
+
 ## IND-CPA
 
 * __"Security Game"__ = Challenger vs Adversary (where challenger knows k)
