@@ -60,7 +60,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 * Definition SS: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
 
 ### $\forall$m<sub>0</sub>,m<sub>1</sub> $\in$ M, {k }
-<p><span class="math inline">\(\forall\)</span>m<sub>0</sub>,m<sub>1</sub> <span class="math inline">\(\in\)</span> M, {k })$</p>
+m&lt;sub&gt;0&lt;/sub&gt;,m&lt;sub&gt;1&lt;/sub&gt; M, k )
 
 ## IND-CPA
 
