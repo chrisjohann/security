@@ -63,5 +63,5 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 * __"Security Game"__ = Challenger vs Adversary (where challenger knows k)
 
-* __Advantage Formula__ = Adv<sub>IND-CPA</sub>[A,E] = Pr[A guesses b' = b] - 1/2  
+* __Advantage Formula__ = Adv<sub>IND-CPA</sub>[A,E] = |Pr[A guesses b' = b] - 1/2| 
 
