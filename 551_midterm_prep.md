@@ -5,10 +5,10 @@
 
 # Module 2 : Processes, address space, stack, Control Hijacking
 
--What is a process?
--Address Space
--Buffer overflow
--return address vs return value
+- What is a process?
+- Address Space
+- Buffer overflow
+- return address vs return value
 -Format string and integer overflows
 -Useful gdb commands
 -Memory safety Attacks and Defenses
@@ -23,4 +23,10 @@
 -ASLR
 
 # Module 4: Privilege  
+
+# Module 7
+
+## Semantic Security
+* Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
+
 
