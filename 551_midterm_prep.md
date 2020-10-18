@@ -5,21 +5,8 @@
 
 # Module 2 : Processes, address space, stack, Control Hijacking
 
-____________
-
-high addresses
------------------------------------------------------------------------
-STACK 		_____   	 at bottom SP, stack grows down
-
-HEAP			 _____  	dynamically allocated mem, grows up towards statck, "shrinks" and grows at runtime
-STATIC DATA	 _____	global vars
-CODE			 _____ 	program counter (PC) at top of code
------------------------------------------------------------------------
-low addresses
-____________
-
-- **What is a process?** - 
-### Virtual address space = "private address space"
+### **What is a process?**: 
+	- Virtual address space = "private address space"
 	- All processes have their own private space (stack, heap, static data, code)
 
 	- CPU keeps track of memory (SP, PC and registers) for currently running process
@@ -27,7 +14,20 @@ ____________
 		PCB "process control block" stores context of a process
 			-SP, PC, registers of process
          
-- **Address Space** - abstraction of physical memory, contains all of the memory state of a program
+### **Address Space** - abstraction of physical memory, contains all of the memory state of a program
+	____________
+
+	high addresses
+	-----------------------------------------------------------------------
+	STACK 		_____   	 at bottom SP, stack grows down
+
+	HEAP			 _____  	dynamically allocated mem, grows up towards statck, "shrinks" and grows at runtime
+	STATIC DATA	 _____	global vars
+	CODE			 _____ 	program counter (PC) at top of code
+	-----------------------------------------------------------------------
+	low addresses
+	____________
+
 - Buffer overflow
 - return address vs return value
 - Format string and integer overflows
