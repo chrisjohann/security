@@ -116,4 +116,4 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 **Adv<sub>IND-CPA</sub>[A,E] <= 2 Adv<sub>PRG</sub>[B,G]**
 
-  _Prove the PRG adversary has advantage that is at least half of the advantage of the provided IND-CPA adversarary _
+  *Prove the PRG adversary has advantage that is at least half of the advantage of the provided IND-CPA adversarary*
