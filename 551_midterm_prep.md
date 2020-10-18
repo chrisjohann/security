@@ -86,6 +86,10 @@ Once you have salted and hashed a password, you cannot simply decide to update t
 
 Rainbow tables allow simultaneously checking all chains (columns)! No need to recompute for each chain. Note that in a rainbow table that consists of k chains (columns), there is no need to recompute hash/reduction functions for each chain. Instead, the attacker computes R_last(target-digest), and checks that against all the endpoints of all chains. If it matches any endpoint, then that chain likely has the corresponding password. Otherwise, compute R_last(H(R_second_to_last(target-digest))), and compare the result with all endpoints. Rinse and repeat. In the worst case, you have to compute as many hash/reduction functions as there are links in 1 chain (regardless of the number of chains since all chains use the same hash and reduction functions).
 
+# Module 6
+
+
+
 # Module 7
 
 ## Semantic Security
