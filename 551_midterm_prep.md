@@ -35,6 +35,17 @@
 - Memory safety Attacks and Defenses
 - Creating your own shellcode
 
+### HW2
+- **Security mindeset ie** - NSA
+	- Assumptions > NSA only hires U.S. citizens, that are healthy, psych stable, loyal to USA.
+	- Assets > National data & secrets: comm between leaders, personal ID info such as SSNs, credit cards. Employees themselves
+	- Threats > Hiring a spy, loss of confidential data by accident. Traiter or disgruntled employee, mercenary 
+	- Countermeasures > strict background checks, only hire somone in the USA for long time, policy of least privilege
+- **chown** 
+
+- **sudo**
+	
+
 # Module 3: Control hijacking defenses and advanced attacks
 
 - Stack canaries
