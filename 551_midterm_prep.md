@@ -74,19 +74,22 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 ## Cryptographic Reductions
 
-1. b<sub>prg ⇐<sub>ℝ</sub> {0,1}
-2. k ⇐<sub>ℝ</sub> K
-3. If b<sub>prg</sub> = 0
-       val = G(k)
-   else
-       val ⇐<sub>ℝ</sub> {0,1}<sup>n</sup>  
-4. val
-5.
-6.
-7.
-8.
-9.
-10.
-11.
+1.  b<sub>prg ⇐<sub>ℝ</sub> {0,1}
+2.  k ⇐<sub>ℝ</sub> K
+3.  If b<sub>prg</sub> = 0
+        val = G(k)
+    else
+        val ⇐<sub>ℝ</sub> {0,1}<sup>n</sup>     
+4.  val
+5.  m<sub>0</sub>,m<sub>1</sub> ∈ M
+6.  m<sub>0</sub>,m<sub>1</sub>
+7.  b ⇐<sub>ℝ</sub> {0,1}
+8.  c = E(val, m<sub>b</sub>
+9.  c
+10. b'
+11. If b = b<sup>'</sup>
+       return b<sup>'</sup><sub>prg</sub> = 0
+    else
+        return b<sup>'</sup><sub>prg</sub> = 1
 
 
