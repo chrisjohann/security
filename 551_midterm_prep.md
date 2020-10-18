@@ -59,7 +59,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 ## Semantic Security
 * Definition SS: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
 
-![](https://render.githubusercontent.com/render/math?math==\\: {k\\choose2} \\cdot \\frac{1}{365}=\\frac{{k\\choose2}}{365}$)
+![formula](https://render.githubusercontent.com/render/math?math=$E\[P\]=\\: {k\\choose2} \\cdot \\frac{1}{365}=\\frac{{k\\choose2}}{365}$)
 ### $\forall$m<sub>0</sub>,m<sub>1</sub> $\in$ M, {k }
 **Answer:**
 $E\[P\]=\\: {k\\choose2} \\cdot \\frac{1}{365}=\\frac{{k\\choose2}}{365}$
