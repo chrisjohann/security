@@ -72,3 +72,21 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 * __Advantage Formula__ = Adv<sub>IND-CPA</sub>[A,E] = |Pr[A guesses b' = b] - 1/2| 
 
+## Cryptographic Reductions
+
+1. b<sub>prg ⇐<sub>ℝ</sub> {0,1}
+2. k ⇐<sub>ℝ</sub> K
+3. If b<sub>prg</sub> = 0
+       val = G(k)
+   else
+       val ⇐<sub>ℝ</sub> {0,1}<sup>n</sup>  
+4. val
+5.
+6.
+7.
+8.
+9.
+10.
+11.
+
+
