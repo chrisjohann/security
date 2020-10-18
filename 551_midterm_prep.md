@@ -19,11 +19,11 @@
 
 	high addresses
 	-----------------------------------------------------------------------
-	STACK 		_____   	 at bottom SP, stack grows down
+	STACK 		#at bottom SP, stack grows down
 
-	HEAP			 _____  	dynamically allocated mem, grows up towards statck, "shrinks" and grows at runtime
-	STATIC DATA	 _____	global vars
-	CODE			 _____ 	program counter (PC) at top of code
+	HEAP		#dynamically allocated mem, grows up towards statck, "shrinks" and grows at runtime
+	STATIC DATA	#global vars
+	CODE		#program counter (PC) at top of code
 	-----------------------------------------------------------------------
 	low addresses
 	____________
