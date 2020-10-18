@@ -19,7 +19,7 @@
 
 	high addresses
 	-----------------------------------------------------------------------
-	STACK 		#at bottom SP, stack grows down
+	STACK 		#Stack pointer SP (%esp x86) is at the bottom of the stack, stack grows down
 
 	HEAP		#dynamically allocated mem, grows up towards statck, "shrinks" and grows at runtime
 	STATIC DATA	#global vars
