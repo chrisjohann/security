@@ -74,6 +74,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 ## Cryptographic Reductions
 
+### Proof:
 1.  b<sub>prg ⇐<sub>ℝ</sub> {0,1}
 2.  k ⇐<sub>ℝ</sub> K
 3.  If b<sub>prg</sub> = 0
@@ -92,4 +93,5 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
     else
         return b<sup>'</sup><sub>prg</sub> = 1
 
-
+**Adv<sub>IND-CPA</sub>[A,E] <= 2 Adv<sub>PRG</sub>[B,G]**
+_Prove the PRG adversary has advantage that is at least half of the advantage of the provided IND-CPA adversarary _
