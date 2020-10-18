@@ -59,7 +59,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 ## Semantic Security
 * Definition SS: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
 
-  ∀ m<sub>0</sub>,m<sub>1</sub> ∈ M {k⇐<sub>ℝ</sub>K; E(k,m<sub>0</sub>)} ≈<sub>c</sub> {k⇐K; E(k,m<sub>1</sub>)}
+   *∀ m<sub>0</sub>,m<sub>1</sub> ∈ M {k⇐<sub>ℝ</sub>K; E(k,m<sub>0</sub>)} ≈<sub>c</sub> {k⇐K; E(k,m<sub>1</sub>)}*
 
 
 ## IND-CPA
