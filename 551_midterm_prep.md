@@ -160,7 +160,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 #### Second pre-image resistance 
  - "given 1 value, find another that hashes the same"
  -  Given X<sub>1</sub>, it is computationally hard for PPT adversary to find a different X<sub>2</sub>
- 	s.t (X<sub>1</sub> ≠ X<sub>2</sub>) s.t. H(X<sub>1</sub>) = H(X<sub>2</sub>)
+ 	(X<sub>1</sub> ≠ X<sub>2</sub>) s.t. H(X<sub>1</sub>) = H(X<sub>2</sub>)
 
 #### Collision resistance 
  - "find any 2 values that hash to the same digest"
