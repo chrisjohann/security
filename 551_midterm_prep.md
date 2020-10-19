@@ -166,3 +166,4 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
  - "find any 2 values that hash to the same digest"
  - implies second pre-image resistance 
  - It is hard for a (PPT) adversary to find any 2 values X<sub>1</sub>, X<sub>2</sub> (X<sub>1</sub> ≠ X<sub>2</sub>) s.t. H(X<sub>1</sub>) = H(X<sub>2</sub>)
+
