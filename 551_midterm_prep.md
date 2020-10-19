@@ -3,6 +3,7 @@
 - Security mindset
 - Case study: Mat Honan
 
+
 # Module 2 : Processes, address space, stack, Control Hijacking
 
 ### **What is a process?**: 
