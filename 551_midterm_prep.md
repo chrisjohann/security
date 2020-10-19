@@ -144,17 +144,24 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
   *Prove the PRG adversary has advantage that is at least half of the advantage of the provided IND-CPA adversarary*
   
 ### Intro to hash functions
-
 - most useful cryptopgraphic function 
+- maps a large set to a small fixed set so collisions are unavoidable 
+
+	**H: {0, 1}<sup>*</sup> ⟹ {0, 1}<sup>n</sup>**
+
+- Important that adversary is not easily able to find collisions 
 
 #### Pre-image resistance 
+ - given digest y, it is computationally hard for a (PPT) adversary to find any x s.t. H(X) = y
+ - with ifinnite computer power, it would no porblem. (PPT = "probabilistic polynomial time")
 
 #### Second pre-image resistance 
  - "given 1 value, find another that hashes the same"
+ - 
  
  
 
 #### Collision resistance 
  - "find any 2 values that hash to the same digest"
  - implies second pre-image resistance 
- - It is hard for a (PPT) adversary to find any 2 values X<sub>1</sub>, <sub>2</sub> (X<sub>1</sub> ≠ X<sub>2</sub> s.t. H(X<sub>1</sub>) = H(X<sub>2</sub>)
+ - It is hard for a (PPT) adversary to find any 2 values X<sub>1</sub>, X<sub>2</sub> (X<sub>1</sub> ≠ X<sub>2</sub>) s.t. H(X<sub>1</sub>) = H(X<sub>2</sub>)
