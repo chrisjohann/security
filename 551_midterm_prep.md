@@ -98,7 +98,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 # Module 7
 
-## Semantic Security
+### Semantic Security
 * __Definition SS__: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
 
    *∀ m<sub>0</sub>,m<sub>1</sub> ∈ M {k⇐<sub>ℝ</sub>K; E(k,m<sub>0</sub>)} ≈<sub>c</sub> {k⇐K; E(k,m<sub>1</sub>)}*
@@ -108,15 +108,15 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
    *__Adv<sub>IND-CPA</sub>[A,E] <= negligible__*
 
 
-## IND-CPA
+### IND-CPA
 
 * __"Security Game"__ = Challenger vs Adversary (where challenger knows k)
 
 * __Advantage Formula__ = Adv<sub>IND-CPA</sub>[A,E] = |Pr[A guesses b' = b] - 1/2| 
 
-## Cryptographic Reductions
+### Cryptographic Reductions
 
-### Proof:
+#### Proof:
 1.  b<sub>prg ⇐<sub>ℝ</sub> {0,1}
 2.  k ⇐<sub>ℝ</sub> K
 3.  If b<sub>prg</sub> = 0
