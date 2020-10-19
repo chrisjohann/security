@@ -146,18 +146,20 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 ### Intro to hash functions
 - most useful cryptopgraphic function 
 - maps a large set to a small fixed set so collisions are unavoidable 
-
 	**H: {0, 1}<sup>*</sup> ⟹ {0, 1}<sup>n</sup>**
-
 - Important that adversary is not easily able to find collisions 
+- Use cases: 
+	- File downloads (MD5 sum to verify integrity)
+	- Digital signatures (hash the file, then sign the digest: satisifies integrity property)
+	- Blockhain: chain of hashes
 
 #### Pre-image resistance 
  - given digest y, it is computationally hard for a (PPT) adversary to find any x s.t. H(X) = y
- - with ifinnite computer power, it would no porblem. (PPT = "probabilistic polynomial time")
+ - with ifinnite compute power, it would no problem. (PPT = "probabilistic polynomial time")
 
 #### Second pre-image resistance 
  - "given 1 value, find another that hashes the same"
- - 
+ -  Given X<sub>1</sub>
  
  
 
