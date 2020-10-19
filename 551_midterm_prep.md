@@ -97,6 +97,10 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 
 
 # Module 7
+## Indistinguishability and semantic security
+### Statistical tests
+
+### Comptational indistinguishability 
 
 ### Semantic Security
 * __Definition SS__: Ciphertext indistinguishability against chosen plaintext attackers (IND-CPA)
@@ -108,7 +112,7 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
    *__Adv<sub>IND-CPA</sub>[A,E] <= negligible__*
 
 
-### IND-CPA
+#### IND-CPA
 
 * __"Security Game"__ = Challenger vs Adversary (where challenger knows k)
 
@@ -138,3 +142,19 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 **Adv<sub>IND-CPA</sub>[A,E] <= 2 Adv<sub>PRG</sub>[B,G]**
 
   *Prove the PRG adversary has advantage that is at least half of the advantage of the provided IND-CPA adversarary*
+  
+### Intro to hash functions
+
+- most useful cryptopgraphic function 
+
+#### Pre-image resistance 
+
+#### Second pre-image resistance 
+ - "given 1 value, find another that hashes the same"
+ 
+ 
+
+#### Collision resistance 
+ - "find any 2 values that hash to the same digest"
+ - implies second pre-image resistance 
+ - It is hard for a (PPT) adversary to find any 2 values X<sub>1</sub>, <sub>2</sub> (X<sub>1</sub> ≠ X<sub>2</sub> s.t. H(X<sub>1</sub>) = H(X<sub>2</sub>)
