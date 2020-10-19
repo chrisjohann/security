@@ -48,15 +48,28 @@
 
 # Module 3: Control hijacking defenses and advanced attacks
 
-- Stack canaries
-- Bounds checking
-- NX-bit/DEP
-- Return-oriented programming
-- ASLR
+### Stack canaries
+### Bounds checking
+### NX-bit/DEP
+### Return-oriented programming
+### ASLR
 
 # Module 4: Privilege 
+### Privilege Separation
+### Isolation of processes in UNIX
+### Files and directories in UNIX
+### Setuid binaries
+### The UNIX Time-Sharing System
+### Principles for Building Secure Systems
+### Design Patterns for Building Secure Systems
+### The Confused Deputy
+### Storing Passwords
+### Transmitting Passwords
+### Password Alternatives
+### The Tangled Web of Password Reuse
 
-#### No pot of gold at the end of the rainbow.  
+
+#### Piazza post hashes etc: No pot of gold at the end of the rainbow.  
 
    You can only use rainbow tables to reverse the hashes you calculated when you created the table, not any arbitrary hash. In other words, you can’t expect the table to store 
    information that you never put there in the first place. Since the input space of server_secret||password is disjoint from the space of possible unsalted passwords, you 
@@ -86,6 +99,15 @@ Once you have salted and hashed a password, you cannot simply decide to update t
 
 Rainbow tables allow simultaneously checking all chains (columns)! No need to recompute for each chain. Note that in a rainbow table that consists of k chains (columns), there is no need to recompute hash/reduction functions for each chain. Instead, the attacker computes R_last(target-digest), and checks that against all the endpoints of all chains. If it matches any endpoint, then that chain likely has the corresponding password. Otherwise, compute R_last(H(R_second_to_last(target-digest))), and compare the result with all endpoints. Rinse and repeat. In the worst case, you have to compute as many hash/reduction functions as there are links in 1 chain (regardless of the number of chains since all chains use the same hash and reduction functions).
 
+# Moudle 5
+### Cryptography
+### Shift Cipher
+### Affine Cipher
+### Substitution Cipher
+### Viginere Cipher
+### Historical ciphers
+### Population Variance 
+
 # Module 6
 ### Discrete Probability 
 ### Entropy
@@ -93,8 +115,9 @@ Rainbow tables allow simultaneously checking all chains (columns)! No need to re
 ### Stream Ciphers
 ### PRGs and unpredictability 
 ### Negligible funcitons
-
-
+### Non-negligible functions
+### PRGs
+### Perfect Secrecy and OTP (optional)
 
 # Module 7
 ## Indistinguishability and semantic security
